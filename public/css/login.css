@@ -1,0 +1,78 @@
+*{
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.wrap{
+    background-color: #FAFBFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1{
+    color: #5932EA;
+}
+
+.box-login{
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+    padding: 50px 70px;
+background: transparent url;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.input input{
+    margin-top: 5px;
+    padding: 10px 15px;
+    border: none;
+    border-bottom: 1px solid #ededed;
+}
+
+
+.input input:focus{
+    border: none;
+    border-bottom: 1px solid #ededed;
+}
+
+.input label{
+    font-size: 12px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.reset-password{
+    margin-top: 10px;
+    font-size: 12px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+input[type="submit"]{
+    margin-top: 20px;
+    padding: 10px;
+    color: rgb(17, 10, 10);
+    background-color: #5932EA;
+    border: none;
+    border-radius: 15px;
+    color: white;
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+}
